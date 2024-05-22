@@ -1,0 +1,52 @@
+HU:
+
+0. Csomagold ki "Crackedbyblurzz.zip"
+1. Nyisd meg a "Spotify-Desktop_v1.1.22.633" mappát.
+2. Futtasd a "SpotifyFullSetup_v1.1.22.633.exe" fájlt és telepítsd a Spotify-t.
+3. Futtasd a "SpotifyUpdate.exe" fájlt és telepítsd a Spotify-t.
+4. Amint a Spotify megnyílik, zárd be az alkalmazást.
+5. Futtasd a "SpotifyPatch.bat" fájlt.
+6. Nyisd meg a Spotify-t és jelentkezz be.
+7. És kész
+
+RU: 
+
+1. Распакуйте «Crackedbyblurzz.zip».
+2. Откройте папку «Spotify-Desktop_v1.1.22.633».
+3. Запустите «SpotifyFullSetup_v1.1.22.633.exe» и установите Spotify.
+4. Как только Spotify откроется, закройте приложение.
+5. Запустите файл «SpotifyPatch.bat».
+6. Откройте Spotify и войдите в систему.
+7. И все
+
+ES:
+1. Extraiga "Crackedbyblurzz.zip"
+2. Abra la carpeta "Spotify-Desktop_v1.1.22.633".
+3. Ejecute "SpotifyFullSetup_v1.1.22.633.exe" e instale Spotify.
+4. Una vez que se abra Spotify, cierre la aplicación.
+5. Ejecute el archivo "SpotifyPatch.bat".
+6. Abra Spotify e inicie sesión.
+7. Y eso es todo
+
+FR:
+
+1. Extrayez "Crackedbyblurzz.zip"
+2. Ouvrez le dossier "Spotify-Desktop_v1.1.22.633".
+3. Exécutez « SpotifyFullSetup_v1.1.22.633.exe » et installez Spotify.
+4. Une fois Spotify ouvert, fermez l'application.
+5. Exécutez le fichier « SpotifyPatch.bat ».
+6. Ouvrez Spotify et connectez-vous.
+7. Et c'est tout
+
+Ger:
+
+1. Extrahieren Sie „Crackedbyblurzz.zip“
+2. Öffnen Sie den Ordner „Spotify-Desktop_v1.1.22.633“.
+3. Führen Sie „SpotifyFullSetup_v1.1.22.633.exe“ aus und installieren Sie Spotify.
+4. Sobald Spotify geöffnet ist, schließen Sie die App.
+5. Führen Sie die Datei „SpotifyPatch.bat“ aus.
+6. Öffnen Sie Spotify und melden Sie sich an.
+7. Und das ist es
+
+
+Thx for the translations Kac, Mono etc
