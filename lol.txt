@@ -1,3 +1,17 @@
 [from-internal]
 exten => _X.,1,Set(CALLERID(num)=+37912345678)
 exten => _X.,n,Dial(SIP/${EXTEN}@sipserver)
+
+[sipclient]
+type=friend
+secret=password123
+host=dynamic
+context=from-internal
+allow=ulaw
+
+[sipserver]
+type=friend
+secret=password456
+host=dynamic
+context=from-internal
+allow=ulaw
