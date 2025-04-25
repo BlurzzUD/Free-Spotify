@@ -1,0 +1,47 @@
+#!/bin/bash
+
+# Asterisk Installation Script for Ubuntu/Debian
+
+echo "Starting Asterisk installation..."
+
+# Update system packages
+echo "Updating system packages..."
+sudo apt update && sudo apt upgrade -y
+
+# Install required dependencies
+echo "Installing required dependencies..."
+sudo apt install -y build-essential git wget subversion \
+  libxml2-dev libncurses5-dev libnewt-dev libssl-dev \
+  libsqlite3-dev libjansson-dev uuid-dev
+
+# Download Asterisk
+echo "Downloading Asterisk..."
+wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-18-current.tar.gz
+
+# Extract Asterisk files
+echo "Extracting Asterisk files..."
+tar -xvzf asterisk-18-current.tar.gz
+cd asterisk-18.*
+
+# Configure Asterisk build options
+echo "Configuring Asterisk build options..."
+sudo make menuselect
+
+# Build and install Asterisk
+echo "Building and installing Asterisk..."
+sudo make
+sudo make install
+sudo make samples
+sudo make config
+
+# Enable Asterisk to start at boot
+echo "Enabling Asterisk to start at boot..."
+sudo systemctl enable asterisk
+
+# Start Asterisk
+echo "Starting Asterisk..."
+sudo systemctl start asterisk
+
+echo "Asterisk installation complete!"
+echo "You can check the status of Asterisk by running 'sudo systemctl status asterisk'."
+echo "You can enter Asterisk CLI by running 'sudo asterisk -rvv'."
